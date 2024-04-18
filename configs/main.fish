@@ -6,7 +6,7 @@ set -lx ctcontainer_backend chroot
 set -lx ctcontainer_safety_level 1
 set -lx ctcontainer_auto_umount 1
 set -lx ctcontainer_x11 xhost
-set -lx ctcontainer_source "https://us.lxd.images.canonical.com"
+set -lx ctcontainer_source "https://images.linuxcontainers.org"
 checkdependence file curl jq sudo
 if test -d /etc/centerlinux/conf.d/
 else

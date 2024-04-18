@@ -9,5 +9,5 @@ backend=chroot
 safety_level=-1
 auto_umount=1
 x11=xhost
-source=https://us.lxd.images.canonical.com" >/etc/centerlinux/conf.d/ctcontainer.conf
+source=https://images.linuxcontainers.org" >/etc/centerlinux/conf.d/ctcontainer.conf
 end
